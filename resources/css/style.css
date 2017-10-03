@@ -71,3 +71,80 @@ h1 {
     font-size: 2rem;
     line-height: 1.2;
 }
+
+.icons {
+	display: flex;
+	justify-content: center;
+}
+
+.icons .paper-icon img {
+	width: 3.5rem;
+}
+
+.ruler-icon img,
+.truck-icon img {
+	width: 5rem;
+}
+
+.paper-icon,
+.ruler-icon,
+.truck-icon {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	margin: 3rem;
+	height: 8rem;
+	width: 5rem;
+}
+
+.icons div {
+	font-family: Helvetica;
+	font-size: 1rem;
+}
+
+.title {
+	font-family: Helvetica;
+	font-size: 1rem;
+	font-weight: bold;
+	padding-left: 1.25rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+	background-color: cadetblue;
+	width: 10rem;
+	color: white;
+}
+
+.infos {
+	display: flex;
+	justify-content: center;
+}
+
+.info {
+    width: 35%;
+    margin-right: 5%;
+    margin-bottom: 4rem;
+}
+
+p,
+footer div {
+	font-family: Helvetica;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	background-color: azure;
+	padding: 4rem 2rem;
+}
+
+footer img {
+	height: 1.5rem;
+	margin-right: 1rem;
+	margin-left: 2rem;
+}
+
+img {
+	border-style: none;
+}

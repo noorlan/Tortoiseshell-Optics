@@ -148,3 +148,99 @@ footer img {
 img {
 	border-style: none;
 }
+
+@media only screen and (max-width: 1024px) {
+	h1 {
+		font-size: 1.33rem;
+	}
+	body {
+		width: 100%;
+		margin: auto;
+	}
+	header {
+		height: 22rem;
+		padding-top: 0;
+	}
+	.main-banner {
+		padding: 0.75rem 4rem;
+		margin-top: 5rem;
+		margin-right: 2rem;
+	}
+	.container {
+		width: 100%;
+	}
+	header .container {
+		max-width: unset;
+	}
+}
+
+@media only screen and (max-width: 470px) {
+	h1 {
+		font-size: 1rem;
+		text-align: center;
+	}
+	body {
+		width: 100%;
+		margin: auto;
+	}
+	header {
+		height: 17rem;
+		padding-top: 0;
+		background-position: 20%;
+	}
+	.main-banner {
+		margin-top: 9rem;
+		width: 100%;
+		margin-right: unset;
+	}
+	header span,
+	.menu {
+		display: none;
+	}
+	.mobile-menu {
+		display: block;
+	}
+	header .flex {
+		width: 100%;
+	}
+	.icons {
+		flex-direction: column;
+		align-items: center;
+	}
+	.paper-icon {
+		margin: 3.77rem 0 0 0;
+	}
+	.ruler-icon {
+		margin: 1.54rem 0;
+	}
+	.truck-icon {
+		margin: 0 0 3.77rem 0;
+	}
+	.infos {
+		flex-direction: column;
+	}
+	.info {
+		width: 100%;
+		font-size: 0.77rem;
+		margin-right: 0;
+	}
+	.title {
+		width: 100%;
+		text-align: center;
+		padding-left: unset;
+	}
+	footer div {
+		display: none;
+	}
+	footer img {
+		margin: auto;
+		padding: 4rem 0;
+	}
+	p {
+		margin-left: 8px;
+	}
+	.container {
+		margin: auto;
+		padding: unset;
+	}
+}
